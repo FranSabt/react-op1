@@ -1,0 +1,12 @@
+ESTRUCTURA DEL PROYECTO
+
+*container => Logica y datos
+    pure =>
+        forms=>
+*hook => Hooks propios
+*routes => Nuestras rutas
+    pages => archivos js o jsx que rendericen una oag
+         home
+         auth
+    404 =>
+* models => tipos de datos
