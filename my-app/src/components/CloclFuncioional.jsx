@@ -11,15 +11,16 @@ const CloclFuncioional = () => {
   });
 
   useEffect(() => {
-    setInterval(() => {
+		let edad =  clock.edad + 1
+    const timer = setInterval(() => {
 			setClock({
 				...clock,
         fecha: new Date(),
-        edad: clock.edad + 1,
+        edad:edad,
       })
-		}),
-      1000;
-  },[]);
+		}, 1000);
+		return () => clearInterval(timer)
+  });
 
   return (
     <div>

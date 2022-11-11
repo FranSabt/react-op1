@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Clock from './components/Clock';
 import CloclFuncioional from './components/CloclFuncioional';
 // import Ejempl4 from './hooks/Ejempl4';
 // import AllCycles from './hooks/lifeCycle/AllCycles';
@@ -35,6 +36,7 @@ class App extends Component {
       <DidUpdate/>
       <DidUpdateHook/> */}
       {/* <AllCycles/> */}
+      {/* <Clock/>       */}
       <CloclFuncioional/>
       </div>
     );
