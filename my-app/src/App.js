@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import CloclFuncioional from './components/CloclFuncioional';
 // import Ejempl4 from './hooks/Ejempl4';
-import AllCycles from './hooks/lifeCycle/AllCycles';
+// import AllCycles from './hooks/lifeCycle/AllCycles';
 // import { DidMount, DidMountHook } from './hooks/lifeCycle/DidMount';
 // import { DidUpdate, DidUpdateHook } from './hooks/lifeCycle/DidUpdate';
 // import Ejemp2 from './hooks/Ejemp2';
@@ -33,7 +34,8 @@ class App extends Component {
       <DidMountHook/>
       <DidUpdate/>
       <DidUpdateHook/> */}
-      <AllCycles/>
+      {/* <AllCycles/> */}
+      <CloclFuncioional/>
       </div>
     );
   }
