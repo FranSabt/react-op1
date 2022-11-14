@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import Clock from './components/Clock';
-import CloclFuncioional from './components/CloclFuncioional';
+import { Father } from './components/container/Father';
+// import Clock from './components/Clock';
+// import CloclFuncioional from './components/CloclFuncioional';
 // import Ejempl4 from './hooks/Ejempl4';
 // import AllCycles from './hooks/lifeCycle/AllCycles';
 // import { DidMount, DidMountHook } from './hooks/lifeCycle/DidMount';
 // import { DidUpdate, DidUpdateHook } from './hooks/lifeCycle/DidUpdate';
 // import Ejemp2 from './hooks/Ejemp2';
 // import ContactContainer from './components/container/ContactContainer';
-// import TaskListComponent from './components/container/TaskListComponent';
+// import TaskListComponent from './components/TaksComponent';
 // import Ejemp1 from './hooks/Ejemp1';
 // import Greetings from './Components/pure/greetings';
 // import { FGreeting } from './components/FGreeting';
@@ -22,8 +23,8 @@ class App extends Component {
       {/* <Greetings gata={'Lagata'}/> */}
       {/* <FGreeting gata={'Lagata'}/> */}
       <h1>Hola Mundo</h1>
-      {/* <TaskListComponent/>
-      <ContactContainer/> */}
+      {/* <TaskListComponent/> */}
+      {/* <ContactContainer/> */}
       {/* <Ejemp1/> */}
       {/* <Ejemp2/> */}
       {/* <ComponenteConContexto/> */}
@@ -37,7 +38,8 @@ class App extends Component {
       <DidUpdateHook/> */}
       {/* <AllCycles/> */}
       {/* <Clock/>       */}
-      <CloclFuncioional/>
+      {/* <CloclFuncioional/> */}
+      <Father/>
       </div>
     );
   }
